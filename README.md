@@ -15,7 +15,8 @@ cd contact-manager-cpp
 
 ### Compile the program:
 ```bash
-g++ -o carnet src/main.cpp src/gestion_contacts.cpp
+make clean
+make
 ./carnet
 ```
 
